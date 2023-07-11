@@ -1,0 +1,29 @@
+body{
+    background-image: url(/img/fondo.jpg);
+    background-repeat:repeat;
+    background-size: auto;
+}
+
+section{
+    height: 80vh;
+}
+
+.option {
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .option:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .correct {
+    background-color: #a3e8a3;
+  }
+  
+  .incorrect {
+    background-color: #ff9999;
+  }
+  
